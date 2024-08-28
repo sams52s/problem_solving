@@ -1,15 +1,22 @@
-(Question)[https://leetcode.com/problems/combine-two-tables/description/]
-<hr>
+# Problem 1
+[Question](https://leetcode.com/problems/combine-two-tables/description/)
+
 ## Solution
+
 ``` SQL
-select p.firstName, P.lastName, a.city, a.state
-from Person p
-Left join Address a
-on p.personId = a.personId
+SELECT p.firstName, P.lastName, a.city, a.state
+FROM Person p
+LEFT JOIN Address a
+ON p.personId = a.personId
 ```
-(Question)[https://leetcode.com/problems/employee-bonus/description/]
 <hr>
+
+# Problem 2
+
+[Question](https://leetcode.com/problems/employee-bonus/description/)
+
 ## Solution
+
 ``` SQL
 SELECT e.name , b.bonus
 FROM Employee e

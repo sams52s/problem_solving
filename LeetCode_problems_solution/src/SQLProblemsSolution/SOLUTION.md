@@ -24,3 +24,15 @@ LEFT JOIN Bonus b
 ON e.empId  = b.empId 
 WHERE b.bonus < 1000 OR b.bonus IS NULL
 ```
+
+# Problem 3
+
+[Question](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)
+
+## Solution
+
+``` SQL
+SELECT name
+FROM Employee
+WHERE managerId  IS NULL
+```

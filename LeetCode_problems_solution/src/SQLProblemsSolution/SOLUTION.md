@@ -38,3 +38,18 @@ INNER JOIN Employee AS m ON e.id=m.managerId
 GROUP BY m.managerId 
 HAVING COUNT(m.managerId) >= 5
 ```
+# Problem 4
+
+[Question](https://leetcode.com/problems/rank-scores/description/)
+
+## Solution
+
+``` SQL
+SELECT 
+    score,
+    DENSE_RANK() OVER (ORDER BY score DESC) AS "rank"
+FROM 
+    Scores
+ORDER BY 
+    score DESC;
+```

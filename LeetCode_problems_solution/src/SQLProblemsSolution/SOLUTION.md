@@ -53,3 +53,18 @@ FROM
 ORDER BY 
     score DESC;
 ```
+
+# Problem 5
+
+[Question](https://leetcode.com/problems/second-highest-salary/description/)
+
+## Solution
+
+``` SQL
+SELECT 
+    (SELECT DISTINCT salary
+     FROM Employee
+     ORDER BY salary DESC
+     LIMIT 1 OFFSET 1)
+AS SecondHighestSalary;
+```

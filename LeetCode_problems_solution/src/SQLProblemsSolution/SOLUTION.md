@@ -69,7 +69,7 @@ SELECT
 AS SecondHighestSalary;
 ```
 
-# Problem 5
+# Problem 6
 
 [Question](https://leetcode.com/problems/nth-highest-salary/description/)
 
@@ -93,4 +93,27 @@ BEGIN
   );
 END;
 $$ LANGUAGE plpgsql;
+```
+
+# Problem 7
+
+[Question](https://leetcode.com/problems/consecutive-numbers/description/)
+
+## Solution
+
+``` SQL
+-- Write your PostgreSQL query statement below
+SELECT DISTINCT num AS ConsecutiveNums
+FROM (
+    SELECT
+    LAG(id) OVER(ORDER BY id) as prev_id,id,
+    LEAD(id) OVER (ORDER BY id) as next_id,
+    LAG(num) OVER (ORDER BY id) AS prev_num,num,
+    LEAD(num) OVER (ORDER BY id) AS next_num
+    FROM logs
+) s_q
+WHERE prev_num = num 
+AND num = next_num
+AND next_id - id = 1 
+AND id - prev_id = 1;
 ```

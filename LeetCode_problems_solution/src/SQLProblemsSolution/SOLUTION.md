@@ -1,6 +1,5 @@
 # Problem 1
-## 175. Combine Two Tables
-[Question](https://leetcode.com/problems/combine-two-tables/description/)
+[175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)
 
 ## Solution
 
@@ -13,8 +12,7 @@ ON p.personId = a.personId
 <hr>
 
 # Problem 2
-## 577. Employee Bonus
-[Question](https://leetcode.com/problems/employee-bonus/description/)
+[577. Employee Bonus](https://leetcode.com/problems/employee-bonus/description/)
 
 ## Solution
 
@@ -27,8 +25,7 @@ WHERE b.bonus < 1000 OR b.bonus IS NULL
 ```
 
 # Problem 3
-## 570. Managers with at Least 5 Direct Reports
-[Question](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)
+[570. Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)
 
 ## Solution
 
@@ -40,8 +37,7 @@ GROUP BY m.managerId
 HAVING COUNT(m.managerId) >= 5
 ```
 # Problem 4
-## 178. Rank Scores
-[Question](https://leetcode.com/problems/rank-scores/description/)
+[178. Rank Scores](https://leetcode.com/problems/rank-scores/description/)
 
 ## Solution
 
@@ -56,8 +52,7 @@ ORDER BY
 ```
 
 # Problem 5
-## 176. Second Highest Salary
-[Question](https://leetcode.com/problems/second-highest-salary/description/)
+[176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/)
 
 ## Solution
 
@@ -71,8 +66,7 @@ AS SecondHighestSalary;
 ```
 
 # Problem 6
-## 177. Nth Highest Salary
-[Question](https://leetcode.com/problems/nth-highest-salary/description/)
+[177. Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/description/)
 
 ## Solution
 
@@ -97,8 +91,7 @@ $$ LANGUAGE plpgsql;
 ```
 
 # Problem 7
-## 180. Consecutive Numbers
-[Question](https://leetcode.com/problems/consecutive-numbers/description/)
+[180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/description/)
 
 ## Solution
 

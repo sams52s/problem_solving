@@ -68,3 +68,29 @@ SELECT
      LIMIT 1 OFFSET 1)
 AS SecondHighestSalary;
 ```
+
+# Problem 5
+
+[Question](https://leetcode.com/problems/nth-highest-salary/description/)
+
+## Solution
+
+``` SQL
+CREATE OR REPLACE FUNCTION NthHighestSalary(N INT) RETURNS TABLE (Salary INT) AS $$
+BEGIN
+  RETURN QUERY (
+    -- Write your PostgreSQL query statement below.
+   SELECT sub.salary
+    FROM (
+      SELECT 
+        e.salary, 
+        DENSE_RANK() OVER (ORDER BY e.salary DESC) AS rank
+      FROM 
+        Employee e
+    ) sub
+    WHERE sub.rank = N
+    LIMIT 1
+  );
+END;
+$$ LANGUAGE plpgsql;
+```

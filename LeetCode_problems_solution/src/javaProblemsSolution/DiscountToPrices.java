@@ -1,4 +1,4 @@
-package apply_discount_to_prices;
+package javaProblemsSolution;
 
 import java.text.DecimalFormat;
 

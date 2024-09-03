@@ -1,6 +1,6 @@
-package convert_1D_array_to_2D_array;
+package javaProblemsSolution;
 
-class Solution {
+class convert1DArrayTo2DArray {
     public int[][] construct2DArray(int[] original, int m, int n) {
         int[][] output = new int[m][n];
         int x=0;

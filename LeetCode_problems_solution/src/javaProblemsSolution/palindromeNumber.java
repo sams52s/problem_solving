@@ -1,6 +1,6 @@
-package palindrome_number;
+package javaProblemsSolution;
 
-public class Solution {
+public class palindromeNumber {
     public boolean isPalindrome(int x) {
         String temp = Integer.toString(x);
         int flag =0;

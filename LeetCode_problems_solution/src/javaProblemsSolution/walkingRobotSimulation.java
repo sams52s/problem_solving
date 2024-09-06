@@ -1,4 +1,9 @@
-class Solution {
+package javaProblemsSolution;
+
+import java.util.HashSet;
+import java.util.Set;
+
+class walkingRobotSimulation {
     public int robotSim(int[] commands, int[][] obstacles) {
         Set<String> obstacleSet = new HashSet<>();
         for(int[] obstacle : obstacles){

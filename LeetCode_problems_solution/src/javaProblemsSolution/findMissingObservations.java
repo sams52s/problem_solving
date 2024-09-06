@@ -1,4 +1,8 @@
-class Solution {
+package javaProblemsSolution;
+
+import java.util.Arrays;
+
+class findMissingObservations {
     public int[] missingRolls(int[] rolls, int mean, int n) {
         int m = n;
         for(int roll : rolls){

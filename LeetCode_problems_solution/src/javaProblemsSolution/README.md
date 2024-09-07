@@ -9,3 +9,4 @@
 8. - Problem Link : [874. Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/?envType=daily-question&envId=2024-09-04)
 9. - Problem Link : [2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations/description/?envType=daily-question&envId=2024-09-05)
 10. - Problem Link : [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/?envType=daily-question&envId=2024-09-06)
+11. - Problem Link : [1367. Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/description/?envType=daily-question&envId=2024-09-07)

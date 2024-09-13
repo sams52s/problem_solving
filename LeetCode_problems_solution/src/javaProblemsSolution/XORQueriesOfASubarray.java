@@ -13,5 +13,5 @@ public class XORQueriesOfASubarray {
             }
             return res;
         }
-    
+
 }

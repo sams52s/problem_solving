@@ -1,3 +1,7 @@
+package javaProblemsSolution;
+
+import java.util.HashSet;
+
 class CountTheNumberOfConsistentStrings {
     public int countConsistentStrings(String allowed, String[] words) {
         int consistent = 0;

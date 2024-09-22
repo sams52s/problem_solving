@@ -3,11 +3,11 @@
 
 ## Random problem:
 1. Problem Link : [1. Two Sum](https://leetcode.com/problems/two-sum/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/TwoSum.java)
-2. Problem Link : [9. Palindrome Numberr](https://leetcode.com/problems/palindrome-number/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/palindromeNumber.java)
-3. Problem Link : [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/Merge%20Two%20Sorted%20Lists.md)
-4. Problem Link : [2288. Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/DiscountToPrices.java)
+2. Problem Link : [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/LongestSubstringWithoutRepeatingCharacters.java)
+3. Problem Link : [9. Palindrome Numberr](https://leetcode.com/problems/palindrome-number/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/palindromeNumber.java)
+4. Problem Link : [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/Merge%20Two%20Sorted%20Lists.md)
 5. Problem Link : [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/SubtreeOfAnotherTree.java)
-5. Problem Link : [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) || [My Solution]()
+6. Problem Link : [2288. Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/description/) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/DiscountToPrices.java)
 
 ## Daily Question of September 2024:
 1. Problem Link : [2022. Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/?envType=daily-question&envId=2024-09-01) || [My Solution](https://github.com/sams52s/problem_solving/blob/main/LeetCode_problems_solution/src/javaProblemsSolution/convert1DArrayTo2DArray.java)

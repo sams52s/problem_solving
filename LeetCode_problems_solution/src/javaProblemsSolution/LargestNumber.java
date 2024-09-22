@@ -1,3 +1,7 @@
+package javaProblemsSolution;
+
+import java.util.Arrays;
+
 class LargestNumber {
     public String largestNumber(int[] nums) {
         String[] numStrs = new String[nums.length];

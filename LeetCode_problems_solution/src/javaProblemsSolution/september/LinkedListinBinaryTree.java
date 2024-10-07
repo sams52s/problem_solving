@@ -1,6 +1,4 @@
-package javaProblemsSolution;
-
-import java.util.HashSet;
+package javaProblemsSolution.september;
 
 public class LinkedListinBinaryTree {
 //    public boolean isSubPath(ListNode head, TreeNode root) {

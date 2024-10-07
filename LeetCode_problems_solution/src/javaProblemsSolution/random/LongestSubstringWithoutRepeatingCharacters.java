@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.random;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.september;
 
 class convert1DArrayTo2DArray {
     public int[][] construct2DArray(int[] original, int m, int n) {

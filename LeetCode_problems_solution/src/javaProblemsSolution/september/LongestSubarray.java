@@ -1,6 +1,4 @@
-package javaProblemsSolution;
-
-import java.util.Arrays;
+package javaProblemsSolution.september;
 
 public class LongestSubarray {
     public int longestSubarray(int[] nums) {

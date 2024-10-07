@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.random;
 
 public class SubtreeOfAnotherTree {
     public static class TreeNode {

@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.september;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.random;
 
 public class palindromeNumber {
     public boolean isPalindrome(int x) {

@@ -1,3 +1,5 @@
+package javaProblemsSolution.october;
+
 class RankTransformofanArray {
     public int[] arrayRankTransform(int[] arr) {
         int[] sortedArr = arr.clone();

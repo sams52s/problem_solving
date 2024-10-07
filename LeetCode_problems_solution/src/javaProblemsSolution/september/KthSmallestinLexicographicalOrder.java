@@ -1,7 +1,4 @@
-package javaProblemsSolution;
-
-import java.util.ArrayList;
-import java.util.List;
+package javaProblemsSolution.september;
 
 public class KthSmallestinLexicographicalOrder {
         public int findKthNumber(int n, int k) {

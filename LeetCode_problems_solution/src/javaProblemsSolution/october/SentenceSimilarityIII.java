@@ -1,3 +1,5 @@
+package javaProblemsSolution.october;
+
 class SentenceSimilarityIII {
     public boolean areSentencesSimilar(String sentence1, String sentence2) {
         String[] sent1Arr = sentence1.split(" ");

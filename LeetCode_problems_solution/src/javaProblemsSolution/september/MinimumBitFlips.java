@@ -1,3 +1,5 @@
+package javaProblemsSolution.september;
+
 class MinimumBitFlips {
     public int minBitFlips(int start, int goal) {
         int[] startBinary = convertBinarry(start);

@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.september;
 
 public class SumOfDigitsOfStringAfterConvert {
     public int getLucky(String s, int k) {

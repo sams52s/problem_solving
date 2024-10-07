@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.random;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {

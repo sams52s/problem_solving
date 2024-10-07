@@ -1,4 +1,4 @@
-package javaProblemsSolution;
+package javaProblemsSolution.september;
 
 //1894.find the student that will replace the chalk
 class findTheStudent {

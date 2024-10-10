@@ -129,3 +129,4 @@ The **monotonic stack** approach is the most efficient solution for the maximum 
 - Stacks shine in scenarios like **expression parsing**, **DFS**, **function call management**, and **backtracking**.
 - When comparing stacks to other structures like **queues** and **deques**, the choice depends on the specific requirements of the algorithm, such as whether you need **LIFO**, **FIFO**, or double-ended operations.
 
+### [To know more about stack](https://github.com/sams52s/Documentation/blob/main/Stack_Java_Documentation.md)

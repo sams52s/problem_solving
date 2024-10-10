@@ -1,5 +1,7 @@
 package javaProblemsSolution.october;
 
+import java.util.Arrays;
+
 class DividePlayersIntoTeamsofEqualSkill {
     public long dividePlayers(int[] skill) {
         Arrays.sort(skill);

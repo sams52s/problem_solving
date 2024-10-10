@@ -1,5 +1,8 @@
 package javaProblemsSolution.october;
 
+import java.util.Arrays;
+import java.util.HashMap;
+
 class RankTransformofanArray {
     public int[] arrayRankTransform(int[] arr) {
         int[] sortedArr = arr.clone();

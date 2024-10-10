@@ -1,5 +1,7 @@
 package javaProblemsSolution.september;
 
+import java.util.ArrayList;
+
 class DesignCircularDeque {
 
     private ArrayList<Integer> deque;
@@ -8,7 +10,7 @@ class DesignCircularDeque {
     private int rear;
     private int currentCount;
 
-    public MyCircularDeque(int k) {
+    public DesignCircularDeque(int k) {
         this.k = k;
         this.deque = new ArrayList<>(k);
         this.front = 0;

@@ -1,5 +1,7 @@
 package javaProblemsSolution.september;
 
+import java.util.HashMap;
+
 class LongestCommonPrefix {
     public int longestCommonPrefix(int[] arr1, int[] arr2) {
         HashMap<String, Integer> prefixMap = new HashMap<>();

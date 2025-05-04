@@ -4,11 +4,14 @@ import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        System.out.println(maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
-        System.out.println(maxSubArray(new int[]{1}));
-        System.out.println(maxSubArray(new int[]{5, 4, -1, 7, 8}));
+        System.out.println(lengthOfLongestSubstring("abcabcbb")); // 3
+        System.out.println(lengthOfLongestSubstring("bbbbb")); // 1
+        System.out.println(lengthOfLongestSubstring("pwwkew")); // 3
+        System.out.println(lengthOfLongestSubstring("")); // 0
+        System.out.println(lengthOfLongestSubstring("a")); // 1
+        System.out.println(lengthOfLongestSubstring("au")); // 2
     }
-    public int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
 
         HashMap<Character, Integer> map = new HashMap<>();
         int j = -1;
